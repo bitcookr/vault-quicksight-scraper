@@ -72,14 +72,14 @@ python scraper.py
 
 ```powershell
 $env:VAULT_USERNAME="candidate@vaultsportshq.com"
-$env:VAULT_PASSWORD="Vault!nterview1"
+$env:VAULT_PASSWORD='Vault!nterview1'
 python scraper.py
 ```
 
 ### Option 2: CLI arguments
 
 ```bash
-python scraper.py --username "candidate@vaultsportshq.com" --password "Vault!nterview1"
+python scraper.py --username "candidate@vaultsportshq.com" --password 'Vault!nterview1'
 ```
 
 ### Useful options
@@ -92,7 +92,7 @@ python scraper.py --username "candidate@vaultsportshq.com" --password "Vault!nte
 Example:
 
 ```bash
-python scraper.py --headful --username "candidate@vaultsportshq.com" --password "Vault!nterview1"
+python scraper.py --headful --username "candidate@vaultsportshq.com" --password 'Vault!nterview1'
 ```
 
 ## Logging
