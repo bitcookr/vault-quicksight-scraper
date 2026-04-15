@@ -64,7 +64,7 @@ You can provide credentials either through environment variables or CLI argument
 
 ```bash
 export VAULT_USERNAME="candidate@vaultsportshq.com"
-export VAULT_PASSWORD="Vault!nterview1"
+export VAULT_PASSWORD='Vault!nterview1'
 python scraper.py
 ```
 
